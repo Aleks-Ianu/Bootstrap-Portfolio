@@ -25,6 +25,11 @@
     border: 2px solid grey;
     border-radius: 50%;
 }
+
+.name-cl {
+    color: grey;
+    font-size: 30px;
+}
 /* hero button  */
 .hero-btn button{
     border: 0;
@@ -62,7 +67,8 @@
 .h2-flex {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 40px;
+    margin-top: 20px;
 }
 
 /* about me */
@@ -75,3 +81,60 @@
 .row p{
     margin-top: 20px;
 }
+
+/* card */
+
+.card {
+    width:300px;
+}
+
+
+
+/* contact me  */
+  .contact-btn {
+	box-shadow: 4px 13px 22px -3px #276873;
+	background:linear-gradient(to bottom, #00f2fa 5%, #408c99 100%);
+	background-color:#00f2fa;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 20px;
+	text-decoration:none;
+}
+.contact-btn:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #00f2fa 100%);
+	background-color:#408c99;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
+
+.flex-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .h2-flex {
+        justify-content:center;
+    }
+}
+
