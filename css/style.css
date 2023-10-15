@@ -84,10 +84,21 @@
 
 /* card */
 
-.card {
-    width:300px;
+.card-group.card-group-scroll > .card {
+    flex-basis: 35%;
 }
 
+.work-fl {
+    display: flex;
+    justify-content: center;
+}
+
+.work-container {
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
 
 
 /* contact me  */
@@ -135,6 +146,13 @@ footer {
 @media only screen and (max-width:768px) {
     .h2-flex {
         justify-content:center;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-group.card-group-scroll {
+        overflow-x: auto;
+        flex-wrap: nowrap;
     }
 }
 
