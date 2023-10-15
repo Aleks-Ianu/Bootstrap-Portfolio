@@ -12,10 +12,13 @@ Hi there,
 welcome to my repository, this project was written using CSS HTML and Bootstrap.
 In this project i have  recreated the project i made before(aleks-ianu.github.io/AI-Portfolio/) made using pure CSS and i adapted it using Bootstrap.
 Link to live webpage of project :
+https://aleks-ianu.github.io/Bootstrap-Portfolio/
 
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+![screenshot 1](images/screenshot1.jpeg)
+
+![screenshot2](images/screenshot2.png)
 
 ## Project status
 

@@ -83,6 +83,9 @@
 }
 
 /* card */
+.unify-img {
+    height: 500px;
+}
 
 .card-group.card-group-scroll > .card {
     flex-basis: 35%;
@@ -100,6 +103,15 @@
     border-radius: 25px;
 }
 
+.bg-card {
+    background-color: aliceblue;
+    height: 20%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
 /* contact me  */
   .contact-btn {
@@ -134,10 +146,13 @@ footer {
     border-radius: 25px;
 }
 
-.flex-icon {
-    display: flex;
-    justify-content: space-evenly;
+
+
+.flex-icn {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height:47px;
 }
 
 
