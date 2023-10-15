@@ -58,3 +58,20 @@
     justify-content:center;
     margin-top: 7%;
 }
+
+.h2-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* about me */
+.abt-me {
+    background-color: aliceblue;
+    border:2px solid aliceblue;
+    border-radius: 30px;
+}
+
+.row p{
+    margin-top: 20px;
+}
